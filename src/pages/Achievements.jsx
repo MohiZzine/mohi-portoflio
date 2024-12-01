@@ -10,12 +10,12 @@ const Achievements = () => {
       title: 'Hackathon Winner',
       description: 'Bouygues’s AI Builders Challenge Hackathon, First Place – Won by integrating innovative Transformer models to optimize energy consumption for asphalt drying.',
       icon: Award,
-      category: 'Technical - AI',
+      category: 'AI Builders Challenge',
       link: 'https://www.linkedin.com/posts/mohieddine-farid-b1482325b_aibuilderschallenge2024-um6p-microsoft-activity-7265633145989828612-al5l/?utm_source=share&utm_medium=member_desktop'
     },
     {
       date: 'March 2024',
-      title: 'Silver Medal',
+      title: 'Silver Medal - AMPC',
       description: 'National AMPC Programming Competition: Silver medal',
       icon: Award,
       category: 'Competitive Programming',
@@ -30,14 +30,14 @@ const Achievements = () => {
     },
     {
       date: 'June 2021',
-      title: 'Silver Medal',
+      title: 'Silver Medal - PAMO',
       description: 'Pan-African Mathematical Olympiad (PAMO)',
       icon: Star,
       category: 'Math Olympiad',
     },
     {
       date: 'April 2021',
-      title: 'Tenth (10th) Place',
+      title: 'Tenth Place - APMO',
       description: 'Asia Pacific Mathematical Olympiad (APMO): Moroccan competitor, ranked 10th. ',
       icon: Star,
       category: 'Math Olympiads',
