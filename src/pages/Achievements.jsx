@@ -66,7 +66,7 @@ const Achievements = () => {
             className="text-center max-w-3xl mx-auto"
           >
             <h1 className="text-4xl md:text-5xl font-display font-bold mb-6">
-              Achievements & Recognition
+              Achievements & Awards
             </h1>
             <p className="text-gray-600 dark:text-gray-300 text-lg">
               A chronicle of milestones and accomplishments throughout my academic journey.

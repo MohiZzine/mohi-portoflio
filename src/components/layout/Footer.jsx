@@ -9,13 +9,13 @@ const Footer = () => {
             © {new Date().getFullYear()} Farid Mohieddine. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary-500">
+            <a href="https://github.com/MohiZzine" className="text-gray-600 dark:text-gray-300 hover:text-primary-500">
               <Github className="w-5 h-5" />
             </a>
-            <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary-500">
+            <a href="https://www.linkedin.com/in/mohieddine-farid-b1482325b/" className="text-gray-600 dark:text-gray-300 hover:text-primary-500">
               <Linkedin className="w-5 h-5" />
             </a>
-            <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-primary-500">
+            <a href="mailto:farid.mohieddine3@gmail.com" className="text-gray-600 dark:text-gray-300 hover:text-primary-500">
               <Mail className="w-5 h-5" />
             </a>
           </div>
