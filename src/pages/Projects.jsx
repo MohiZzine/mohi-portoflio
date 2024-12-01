@@ -2,38 +2,41 @@ import { useState } from 'react';
 import PageTransition from '../components/shared/PageTransition';
 import ProjectCard from '../components/projects/ProjectCard';
 import ProjectModal from '../components/projects/ProjectModal';
+// import project1Image from '../assets/images/project2.png';
+// import project2Image from '../assets/images/project2.png';
+import project3Image from '../assets/images/project3.png'; 
+
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
-  // Add your projects data here
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution built with React and Node.js",
-      image: "/images/project1.jpg", // Add your image path
-      github: "https://github.com/yourusername/project1",
-      demo: "https://project1demo.com",
-      technologies: ["React", "Node.js", "MongoDB", "Express"]
+      title: "Efficient Key-Value Store with Go",
+      description: "High-performance distributed key-value store built with Go, featuring LSM tree architecture for optimal data handling and a RESTful API. Implements industry-standard storage patterns to achieve fast read/write operations and memory efficiency.",
+      image: "/images/project1.jpg", 
+      github: "https://github.com/MohiZzine/Key-Value-Store-GO",
+      // demo: "https://project1demo.com",
+      technologies: ["Go"]
     },
     {
       id: 2,
-      title: "AI Image Generator",
-      description: "Machine learning application that generates images from text descriptions",
-      image: "/images/project2.jpg", // Add your image path
-      github: "https://github.com/yourusername/project2",
-      demo: "https://project2demo.com",
-      technologies: ["Python", "TensorFlow", "Flask", "React"]
+      title: "Electric Vehicles Stations App",
+      description: "Full-stack mobile application that helps EV drivers locate charging stations in real-time. Built with React Native and Node.js, featuring interactive maps, smart filtering, and location-based services. Demonstrates expertise in modern mobile development and API integration.",
+      image: "/images/project2.jpg",
+      github: "https://github.com/MohiZzine/EVApp",
+      // demo: "https://project2demo.com",
+      technologies: ["React-Native", "CSS", "PostgreSQL", "Node.js"]
     },
     {
       id: 3,
-      title: "Portfolio Website",
-      description: "Personal portfolio website built with React and Tailwind CSS",
-      image: "/images/project3.jpg", // Add your image path
-      github: "https://github.com/yourusername/portfolio",
-      demo: "https://yourportfolio.com",
-      technologies: ["React", "Tailwind CSS", "Framer Motion"]
+      title: "Mini Scikit Learn",
+      description: "A lightweight machine learning library that packs the power of Scikit-Learn into a streamlined package, featuring advanced algorithms, efficient data preprocessing, and comprehensive model evaluation tools. Built from scratch to demonstrate deep understanding of ML fundamentals.",
+      image: project3Image, 
+      github: "https://github.com/MohiZzine/mini-scikit-learn",
+      // demo: "https://yourportfolio.com",
+      technologies: ["Pandas", "Scikit-Learn", "NumPy"]
     }
   ];
 
