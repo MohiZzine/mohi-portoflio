@@ -52,11 +52,18 @@ const Hero = () => {
             building elegant solutions through code. Check out my{' '}
             <Link 
               to="/achievements" 
-              className="text-primary-500 hover:text-primary-600 underline decoration-2 underline-offset-2"
+              className="text-primary-500 hover:text-primary-600"
             >
               achievements
             </Link>
-            {' '}and projects.
+            {' '}and{' '}
+            <Link 
+              to="/projects" 
+              className="text-primary-500 hover:text-primary-600"
+            >
+              projects
+            </Link>
+            .
           </p>
 
           <motion.div

@@ -40,7 +40,7 @@ const Navbar = () => {
             to="/"
             className="text-2xl font-display font-bold bg-gradient-to-r from-primary-500 to-primary-700 bg-clip-text text-transparent"
           >
-            YourName
+            Mohieddine
           </Link>
 
           {/* Desktop Navigation */}
